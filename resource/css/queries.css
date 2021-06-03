@@ -1,0 +1,63 @@
+/*------responsiveness for  big-tablet and desktop-----*/
+@media only screen and (max-width:1200px){
+    .hero-text-box {
+        width: 100%;
+        padding: 0 3%;
+    }
+    .row {
+        padding: 0 3%;
+    }
+}
+
+/*------responsiveness for small tablet-----*/
+
+@media only screen and (max-width:1023px){
+   body{ font-size: 80%; }
+   section{padding: 45px 0;}
+ .long-copy{
+       width: 80%;
+       margin-left: 10%;
+   }
+.phone-screen { width: 50%;  }
+
+.city-feature i {font-size: 90%;}
+.plan-box{width: 100%; margin: 0;}
+.section-sign-up {
+    padding-top: 50px;
+}
+.section-form {
+    width: 80%
+}
+
+.steps-box:first-child {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.steps-box:last-child {margin-top: 50px;}
+
+.working-steps {
+    margin-bottom: 40px;
+    font-size: 130%;
+}
+
+.btn-app img {
+    height: 60px;
+    width: auto;
+    margin-right: 25px;
+}
+
+}
+
+
+/*------responsiveness for small tablet-----*/
+
+@media only screen and (max-width:767px){
+
+}
+
+/*------responsiveness for small tablet-----*/
+
+@media only screen and (max-width:480px){
+
+}
